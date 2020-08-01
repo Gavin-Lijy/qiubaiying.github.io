@@ -1,0 +1,181 @@
+I"«<!-- TOC -->
+
+<ul>
+  <li><a href="#introduction">Introduction</a>
+    <ul>
+      <li><a href="#structure">Structure</a></li>
+      <li><a href="#mechanism">Mechanism</a></li>
+    </ul>
+  </li>
+  <li><a href="#results">Results</a>
+    <ul>
+      <li><a href="#scrna-seq-and-identification-of-root-cell-clusters">scRNA-Seq and Identification of Root Cell Clusters</a>
+        <ul>
+          <li><a href="#scrna-seq">scRNA-Seq</a></li>
+          <li><a href="#discovery">Discovery</a></li>
+        </ul>
+      </li>
+      <li><a href="#reconstruction-of-the-continuous-differentiation-trajectory-of-root-cells">Reconstruction of the Continuous Differentiation Trajectory of ROOT Cells</a>
+        <ul>
+          <li><a href="#whole-root">Whole root</a></li>
+          <li><a href="#proximal-meristerm">Proximal Meristerm</a></li>
+          <li><a href="#root-cap">Root Cap</a></li>
+        </ul>
+      </li>
+      <li><a href="#differential-hormonal-response-and-ion-assimilation-pattern-in-root-cell-atlas">Differential Hormonal Response and Ion Assimilation Pattern in Root Cell Atlas</a></li>
+      <li><a href="#identification-of-a-role-of-cytokinin-response-in-lateral-root-cap-development">Identification of a Role of Cytokinin Response in Lateral Root Cap Development</a></li>
+    </ul>
+  </li>
+  <li><a href="#discussion">Discussion</a></li>
+</ul>
+
+<!-- /TOC -->
+<h1 id="introduction">Introduction</h1>
+
+<h2 id="structure">Structure</h2>
+
+<p><img src="https://i.loli.net/2020/07/17/Goe1ifTy6QDWl8Y.png" alt="image-20200717212832441" /></p>
+
+<ul>
+  <li>
+    <p>Root apical meristem (RAM) resides in the root tip</p>
+  </li>
+  <li>
+    <p>The core of RAM is quiescent center (QC), known as stem cell niche (SCN), or surrounding stem cells</p>
+  </li>
+  <li>
+    <p>other cell type</p>
+
+    <ol>
+      <li>epidermis</li>
+      <li>hair cell</li>
+      <li>root cap</li>
+      <li>cortex</li>
+      <li>endodermis</li>
+      <li>stele
+        <ul>
+          <li>pericycle</li>
+          <li>phloem</li>
+          <li>xylem</li>
+          <li>procambium</li>
+        </ul>
+      </li>
+    </ol>
+  </li>
+</ul>
+
+<h2 id="mechanism">Mechanism</h2>
+
+<ul>
+  <li>an intersection of high auxin concentration together with endodermal transcription factors controls the localization of the QC</li>
+  <li>TF WOX5, only detected in QC, maintains stem cell pluripotency by repressing the expression of CDF4, which encodes differentiation factor</li>
+  <li>
+    <p>TF PLT guides the transition from cell division to cell expansion and differentiation</p>
+
+    <ol>
+      <li>
+        <p>PLT proteins form a gradient by mitotic distribution and short distance cell-to-cell movement, with <strong>highest level at root tip</strong></p>
+      </li>
+      <li>
+        <p>The PLT gradient coordinates with root cell division, growth, and differentiation by <strong>activating cell division and growth-related genes and repressing differentiation genes</strong></p>
+      </li>
+    </ol>
+  </li>
+  <li>spatial distribution of auxin and cytokinin, in coordination with PEAR and microRNA165/6-targeted HD-ZIP III transcription factors, forms a regulatory network in regulating cambium stem cell population and procambium cell development</li>
+</ul>
+
+<h1 id="results">Results</h1>
+
+<h2 id="scrna-seq-and-identification-of-root-cell-clusters">scRNA-Seq and Identification of Root Cell Clusters</h2>
+
+<p><img src="https://i.loli.net/2020/07/17/uX7dJmDUTohFC9K.png" alt="image-20200717220931599" /></p>
+
+<h3 id="scrna-seq">scRNA-Seq</h3>
+
+<ul>
+  <li>
+    <p>About 15 000 cells were initially mixed with 10xGenomics single-cell reaction regents for scRNA-seq assay.</p>
+  </li>
+  <li>7695 cells with 23 161 genes used for further analysis</li>
+  <li>24 clusters</li>
+</ul>
+
+<h3 id="discovery">Discovery</h3>
+
+<ol>
+  <li>Some cell types are scattered while other cell types were grouped together</li>
+  <li>
+    <p>A given root cell type mayconsist of different subpopulations</p>
+  </li>
+  <li>We identified several putative novel cell/subcell types in roots (clusters 6, 11, 16, 17, 22, and 24)</li>
+</ol>
+
+<h2 id="reconstruction-of-the-continuous-differentiation-trajectory-of-root-cells">Reconstruction of the Continuous Differentiation Trajectory of ROOT Cells</h2>
+
+<h3 id="whole-root">Whole root</h3>
+
+<p><img src="https://i.loli.net/2020/07/17/BxvS3h7FZoIt4pG.png" alt="image-20200717222345131" /></p>
+
+<p>RC, root cap; CE, cell elongation; RH, root hair; CS, endodermal cells with casparian strip; PM, proximal meristem; M, meristem (SCN and PM).</p>
+
+<ul>
+  <li>UMAP revealed two continuous trajectories of root
+development based on this niche: one led to the differentiation of root cap, lateral root cap, epidermis, and root hairs toward distal end and another led to the differentiation of multiple stele cell types toward the proximal end</li>
+</ul>
+
+<h3 id="proximal-meristerm">Proximal Meristerm</h3>
+
+<p><img src="https://i.loli.net/2020/07/17/zVFpKOo2E5tyvhk.png" alt="image-20200717223419916" style="zoom: 200%;" /></p>
+
+<p>SC, stem cell; PM, proximal meristem.</p>
+
+<p><img src="https://i.loli.net/2020/07/17/QZbtcu9fow7Y1i6.png" alt="image-20200717223436898" /></p>
+
+<h3 id="root-cap">Root Cap</h3>
+
+<p><img src="https://i.loli.net/2020/07/17/kloO8dRDKzMbgna.png" alt="image-20200717230102700" /></p>
+
+<p>LRC, lateral root cap; CRC, columella root cap.</p>
+
+<ul>
+  <li>This trajectory supports the notion that LRC, epidermis, and root hair originate from the epidermal/lateral root cap initials</li>
+</ul>
+
+<h2 id="differential-hormonal-response-and-ion-assimilation-pattern-in-root-cell-atlas">Differential Hormonal Response and Ion Assimilation Pattern in Root Cell Atlas</h2>
+
+<p><img src="https://i.loli.net/2020/07/17/9joIusg8cJaCHTZ.png" alt="image-20200717231444129" /></p>
+
+<ul>
+  <li>a single-cell root cell atlas is powerful for functional dissection of the biological processes related to hormonal response and ion assimilation at single-cell resolution.</li>
+</ul>
+
+<h2 id="identification-of-a-role-of-cytokinin-response-in-lateral-root-cap-development">Identification of a Role of Cytokinin Response in Lateral Root Cap Development</h2>
+
+<p><img src="https://i.loli.net/2020/07/17/FckMiafR5VXjOeE.png" alt="image-20200717232410231" /></p>
+
+<ul>
+  <li>
+    <p>arr1 arr10 arr12 triple mutant, which was largely defective in cytokinin signaling output, showed a reduced number of LRC cell layers</p>
+  </li>
+  <li>
+    <p>these results demonstrate the functional significance of high cytokinin response during root epidermal cell differentiation and LRC development.</p>
+  </li>
+</ul>
+
+<h1 id="discussion">Discussion</h1>
+
+<ul>
+  <li>
+    <p>further analyses lack crucial information on cellsâ€™ environments and locations</p>
+  </li>
+  <li>
+    <p>the Plant Cell Atlas Project (PCA)</p>
+  </li>
+  <li>
+    <p>The preparation of sufficient single cells for scRNA-seq is still challenging in plants.</p>
+  </li>
+  <li>
+    <p>Due to the low number of QC cells in roots, we were unable to faithfully identify a corresponding cell cluster in our scRNA-seq dataset</p>
+  </li>
+</ul>
+:ET
