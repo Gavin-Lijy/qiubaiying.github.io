@@ -94,6 +94,8 @@ featured-condition-size: 0            # 相同标签数量大于这个数，才�
 chrome-tab-theme-color: "#000000"
 service-worker: true
 
+future: true
+
 
 
 # # Friends
