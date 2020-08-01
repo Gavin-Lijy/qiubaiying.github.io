@@ -1,7 +1,7 @@
 ---
 layout:     post   				    # 使用的布局（不需要改）
 title:    A Single-Cell RNA Sequencing Profiles the Developmental Landscape of Arabidopsis Root  				# 标题 
-subtitle:   My first post
+subtitle:   
 date:       2020.08.01 				# 时间
 author:      		Gavin				# 作者
 header-img: img/post-bg-2015.jpg 	#这篇文章标题背景图片
